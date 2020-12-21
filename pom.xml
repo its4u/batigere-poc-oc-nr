@@ -11,6 +11,14 @@
 
 	<name>POC Openshit + New Relic</name>
 
+
+	<scm>
+		<connection>scm:git:ssh://git@github.com:its4u/batigere-poc-oc-nr.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:its4u/batigere-poc-oc-nr.git</developerConnection>
+		<url>scm:git:ssh://git@github.com:its4u/batigere-poc-oc-nr.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
