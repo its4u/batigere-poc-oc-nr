@@ -23,6 +23,20 @@
 		<version.thorntail>2.7.0.Final</version.thorntail>
 	</properties>
 
+
+	<distributionManagement>
+		<repository>
+			<id>maven-releases</id>
+			<name>Internal releases</name>
+			<url>http://nexus3-http-batigere-pic.apps.batigere.fr/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven-snapshots</id>
+			<name>Internal snapshots</name>
+			<url>http://nexus3-http-batigere-pic.apps.batigere.fr/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
