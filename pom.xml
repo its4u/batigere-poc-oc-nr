@@ -13,9 +13,9 @@
 
 
 	<scm>
-		<connection>scm:git:git@github.com:its4u/batigere-poc-oc-nr.git</connection>
-		<developerConnection>scm:git:git@github.com:its4u/batigere-poc-oc-nr.git</developerConnection>
-		<url>git@github.com:its4u/batigere-poc-oc-nr.git</url>
+		<connection>scm:git:ssh://git@github.com:its4u/batigere-poc-oc-nr.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:its4u/batigere-poc-oc-nr.git</developerConnection>
+		<url>ssh://git@github.com:its4u/batigere-poc-oc-nr.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
