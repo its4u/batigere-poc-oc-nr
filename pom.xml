@@ -108,6 +108,7 @@
 								</includes>
 								<config>
 									<thorntail-v2>
+										<from>docker-registry.default.svc:5000/batigere-pic/java-new-relic-image:1.0.0</from>
 										<name>batigere-pic/%a:%v</name>
 									</thorntail-v2>
 								</config>
