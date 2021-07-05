@@ -4,10 +4,8 @@ RUN ls /src
 WORKDIR /src
 RUN mvn clean install
 
-FROM adoptopenjdk/openjdk11
+FROM demo-ocp-nr/java-new-relic-image
 WORKDIR /bin
-RUN mkdir agents
-COPY ../agents/* ./agents/
 COPY --from=0 /src/target/poc-newrelic-oc-thorntail.jar .
 
 EXPOSE 8080
