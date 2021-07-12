@@ -10,4 +10,4 @@ COPY --from=0 /src/target/poc-newrelic-oc-thorntail.jar .
 
 EXPOSE 8080
 EXPOSE 8778
-ENTRYPOINT ["java", "-jar", "-Djava.net.preferIPv4Stack=true", "/bin/poc-newrelic-oc-thorntail.jar"]
+ENTRYPOINT ["java", "-jar", "-javaagent:/opt/newrelic/newrelic.jar", "-Djava.net.preferIPv4Stack=true", "/bin/poc-newrelic-oc-thorntail.jar"]
