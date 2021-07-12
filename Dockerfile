@@ -1,4 +1,4 @@
-FROM maven:latest
+FROM maven:3.8.1-openjdk-11
 COPY ./ /src/
 RUN ls /src
 WORKDIR /src
