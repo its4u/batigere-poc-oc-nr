@@ -4,7 +4,7 @@ RUN ls /src
 WORKDIR /src
 RUN mvn clean install
 
-FROM image-registry.openshift-image-registry.svc:5000/poc-ocp-nr/java-new-relic-image
+FROM image-registry.openshift-image-registry.svc:5000/poc-ocp-nr/java-new-relic-image-git
 WORKDIR /bin
 COPY --from=0 /src/target/poc-newrelic-oc-thorntail.jar .
 
